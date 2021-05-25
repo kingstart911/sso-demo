@@ -20,6 +20,7 @@ public class SystemController {
     /**
      * 退出
      *
+     *
      * @param token 令牌，为null时表示用户是率先通过该系统进行退出的；不为null表示是由sso-server调用的退出
      * @param request 请求
      * @param response 响应
